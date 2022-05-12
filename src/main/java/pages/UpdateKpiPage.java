@@ -26,9 +26,9 @@ public class UpdateKpiPage extends PageBase{
 	private By subunit= By.xpath("//div/mat-select[@role='combobox' and @formcontrolname='subUnit']");
 	private By optionsub=By.xpath("(//span [contains(text(),'WBU ')])");
 	private By function = By.xpath("//div/mat-select[@role='combobox' and @formcontrolname='functions']");
-	private By Optionfunction = By.xpath("(//span [contains(text(),'Roaming')])");
+	private By Optionfunction = By.xpath("(//span [contains(text(),'Internet & Content')])");
 	private By kpiType=By.xpath("//div/mat-select[@role='combobox' and @formcontrolname='kpiTypes']");
-	private By kpitypeoption=By.xpath("(//span [contains(text(),'OB Roamer 1st LU Time')])");
+	private By kpitypeoption=By.xpath("(//span [contains(text(),'Complaints resolving time per Service')])");
 	private By removekpiownerBtn=By.xpath("(//a[@class='remove'])[1]");
 	private By ownername = By.xpath("//input[@formcontrolname='ownerName']");
 	private By UpdateBtn=By.xpath("//button[contains(text(),'Update KPI')]");
